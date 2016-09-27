@@ -26,7 +26,7 @@ function submitRegistration() {
   }
 
   function phone(num) {
-    if (!/\b\d{3}[-.]?\d{3}[-.]?\d{4}\b/g) {
+    if (num !== /\b\d{3}[-.]?\d{3}[-.]?\d{4}\b/g) {
       alert("Enter a 10 digit number");
       location.reload();
       return false;
