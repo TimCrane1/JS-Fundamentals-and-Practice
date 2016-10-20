@@ -7,7 +7,6 @@
   */
 
 const sort = numbers => {
-  // TODO: Implement sort here
   var sorted = true;
   
   for (i = 1; i < numbers.length; i++) {
@@ -24,6 +23,7 @@ const sort = numbers => {
 
 module.exports = { sort };
 
+//helper sorting function
 function quickSort(arr) {
   
     if (arr.length === 0) {
