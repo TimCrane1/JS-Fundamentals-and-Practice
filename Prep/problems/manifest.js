@@ -17,7 +17,7 @@
   // './strings/tests/string_permutation.test.js',
   //
   // './arrays/tests/flatten.test.js',
-  // './arrays/tests/every.test.js',
+  './arrays/tests/every.test.js',
   // './arrays/tests/reverse_array_in_place.test.js',
   // './arrays/tests/some.test.js',
   // './arrays/tests/remove_duplicates.test.js',
